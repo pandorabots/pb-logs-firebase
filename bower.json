@@ -1,0 +1,25 @@
+{
+  "name": "pb-logs-firebase",
+  "version": "0.0.1",
+  "homepage": "https://github.com/djfdev/pb-logs-firebase",
+  "authors": [
+    "djf <djfdev@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_components/",
+    "components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1",
+    "font-awesome": "~4.2.0",
+    "firebase": "~2.0.3"
+  }
+}
