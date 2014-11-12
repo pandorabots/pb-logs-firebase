@@ -1,0 +1,50 @@
+body {
+    padding: 50px;
+}
+
+/* User Styles */
+
+#user #yousay {
+    margin-top: 48px;
+    display: inline;
+}
+
+#user #convo {
+    margin-top: 15px;
+    padding: 20px;
+    height: 240px;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#user #convo p {
+    margin-bottom: 0px;
+}
+
+.bot {
+    color: #428bca;
+}
+
+/* Log Styles */
+
+#log #convo {
+    margin-top: 15px;
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 4px;
+
+}
+
+.sessionid {
+    cursor: pointer;
+}
+
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+

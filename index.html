@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <title>User Chat</title>
+  <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="components/firebase/firebase.js"></script>
+  <script type="text/javascript" src="js/talk.js"></script>
+  <script type="text/javascript" src="js/user.js"></script>
+</head>
+<body id="user">
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Storing talk logs</h1>
+          <p>
+            This is an example of how you can store conversation history using <a href="http://www.firebase.com">Firebase</a>. You
+            can monitor the conversations in real time by visiting the
+            <a target="_blank" href="log.html">talk log page</a>.
+          </p>
+          <p>
+            By monitoring your bot's talk logs, you can see and analyze trends in user conversation. This will allow your to write new 
+            bot content that is relevant to the types of things your users are saying.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <input id="yousay" class="form-control" placeholder="Say something..." autofocus>
+          <div id="convo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <hr>
+      <div id="pb-credits" class="pull-right">
+        &copy <a href="http://www.pandorabots.com">Pandorabots, Inc.</a> 2014.
+        All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

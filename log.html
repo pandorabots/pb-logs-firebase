@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <title>Talk logs</title>
+  <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="components/firebase/firebase.js"></script>
+  <script type="text/javascript" src="js/log.js"></script>
+</head>
+<body id="log">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Talk logs</h1>
+      <p>
+        This page tracks new conversations in real time by their <em>sessionid</em>, which is assigned by Pandorabots. Clicking on one will open the conversation in a modal dialog, where you can see new interactions arrive in real time.
+      </p>
+      <div id="convo">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>client_name</th>
+              <th>sessionid</th>
+            </tr>
+          </thead>
+          <tbody id="sessions" />
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="sessionId"></h4>
+          <h4 class="modal-title" id="clientName"></h4>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <hr>
+      <div id="pb-credits" class="pull-right">
+        &copy <a href="http://www.pandorabots.com">Pandorabots, Inc.</a> 2014.
+        All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
