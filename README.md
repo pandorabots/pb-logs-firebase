@@ -1,7 +1,7 @@
 pb-logs-firebase
 ================
 
-Use Firebase to store and track conversation logs between your Pandorabot and your users. Based on [this blog post](http://blog.pandorabots.com).
+Use Firebase to store and track conversation logs between your Pandorabot and your users. Based on [this blog post](http://blog.pandorabots.com/tracking-your-bots-conversations/).
 
 ### Usage
 
