@@ -5,7 +5,7 @@ Use Firebase to store and track conversation logs between your Pandorabot and yo
 
 ### Usage
 
-```bash
+```
 git clone https://github.com/djfdev/pb-logs-firebase.git
 cd pb-logs-firebase
 bower install
