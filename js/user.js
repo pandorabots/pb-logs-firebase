@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var root = "https://your-firebase.firebase.io.com/";
+    var root = "https://your-firebase.firebaseio.com/";
     var pb = new Pandorabot("aiaas.pandorabots.com", APP_ID, BOTNAME, USER_KEY);
     var that = "";
     var init = true;
